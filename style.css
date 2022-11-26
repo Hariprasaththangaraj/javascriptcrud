@@ -1,0 +1,78 @@
+body{
+    background-image: url("1567862.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color:black;
+    font-weight: bolder;
+    font-size: larger;
+    height: 100%;
+    width: 90%;
+    padding-top: 2%;
+    border-radius: 20px;
+    }
+
+table{
+    width: 80%;
+    margin: 40px auto;
+    background-color:rgba(100, 100, 100, 0.1);
+    border-radius: 20px;
+}
+
+table.list{
+    text-align: center;
+    background-color:rgba(100, 100, 100, 0.0);
+    color: black;
+    padding-bottom: 75%;
+}
+
+td{
+    border: 1px solid rgb(red, green, blue);
+    text-align: left;
+    padding: 8px 15px;
+    
+}
+
+tr:nth-child(even),table.list thread> tr{
+  background-color:rgba(100, 100, 100, 0.1);
+}
+
+input[type="text"],input[type="number"]{
+    width: 91%;
+    padding: 12px   20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165, 161, 161);
+    border-radius: 4px;
+}
+
+input[type="submit"],input[type="reset"]{
+    background-color: gray;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    font-weight: bold;
+}
+
+  
+button{
+    background-color: #eee;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+ 
+button:hover{
+    background: #4b994b;
+}
