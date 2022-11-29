@@ -4,53 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CRUD Operation</title>
-    <link type="text/css" rel="stylesheet" href="style.css">
+    <title>JAVASCRIPT</title>
+    <script src ="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <p>
+        JAVASCRIPT CRUD OPERATION
+    </p>    
 </head>
 <body>
-    <table>
-        <tr>
-            <td>
-                <form autocomplete="off" onsubmit="onFormsubmit">
-                    <div>
-                        <label for="ProductCode"> Product Code</label>
-                        <input type="number" name="Product Code" id="ProductCode">
-                       </div>
-                    <div>
-                        <label for="Product"> Product</label>
-                        <input type="text" name="Product" id="Product">
-                    </div>
-                    <div>
-                        <label for="Quality"> Quality</label>
-                        <input type="number" name="Quality" id="Quality">
-                    </div>
-                    <div>
-                        <label for="ProductPrice"> Product Price</label>
-                        <input type="number" name="Product Price" id="ProductPrice">
-                    </div>
-                    <div class="from_action--button"> 
-                        <input type="submit" value="Submit">
-                        <input type="reset" value="Reset">
-                    </div>
-                </form>
-                <td>
-                    <Table class="list" id="StoreList">
-                        <thead>
-                            <tr>
-                                <th> Product Code</th>
-                                <th> Product</th>
-                                <th> Quality</th>
-                                <th> Product Price</th>                    
-                            </tr>
-                        </thead>
-                        <tbody>
-                            
-                        </tbody>
-                    </Table>
-                </td>
-            </td>
-        </tr>
-    </table>
-    <script src="script.js"></script>
+    <form id="Dataform"></form>   
+    <input type="text" id ="name" placeholder="Enter Your Name"><br><br>
+    <input type="number" id ="age" placeholder="Enter Your Age"><br><br>
+    <input type="number" id ="phone" placeholder="Enter Your Phone number"><br><br>
+    <input type="button" value ="Submit" id = "btn" onclick="onFormsubmit()">
+    <input type="reset" value ="Restart" id = "rst">
 </body>
 </html>
